@@ -8,7 +8,7 @@ job('Seed Job') {
       remote {
         name('upstream')
         // replace this with whever you put this repo
-        url('https://github.com/junjiejia/job-dsl/master/')
+        url('https://github.com/junjiejia/job-dsl')
       }
     }
   }
