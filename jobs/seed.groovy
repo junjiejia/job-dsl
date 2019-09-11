@@ -14,7 +14,6 @@ job('Seed Job') {
   }
   steps {
     // running tests first prevents half deployments which could break
-    gradle 'clean test'
     dsl {
       // any job ending in Job.groovy will be deployed
       external 'jobs/piplineJob-dsl.groovy'
