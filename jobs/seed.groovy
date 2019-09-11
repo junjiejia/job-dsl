@@ -1,4 +1,4 @@
-job('Seed Job') {
+job('seed job') {
   wrappers {
     preBuildCleanup()
   }
